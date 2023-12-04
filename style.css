@@ -28,18 +28,29 @@ ul li a {
     text-decoration: none;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
-#first-div {
-    padding: 1px;
-    background-color: #ffdff4;
+ul li a:hover {
+    color: #40dedc;
+}
+
+#first-sec {
+    background-image: url(/img/children.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: left center top;
+    padding: 50px;
     height: 400px;
     width: auto;
-    text-align: left;
+    text-align: center;
     display: flex;
     flex-direction: column;
     padding-top: 35px;
     padding-left: 15px;
+    color: white;
+    font-size: 20px;
 }
 
 #h3-firts {
@@ -79,6 +90,7 @@ ul li a {
 .font {
     font-family: cursive;
     font-size: 20px;
+    color: white;
 }
 
 .galeria {
