@@ -1,0 +1,96 @@
+body {
+    background: Gold ;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.ul-header {
+    display: flex;
+    gap: 15px;
+}
+
+ul li  {
+    list-style: none;
+    background-color: rgb(27, 24, 24);
+    padding: 20px;
+    border-radius: 5px;
+}
+ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#primeira-div {
+    padding: 1px;
+    background-color: LightYellow;
+    height: 400px;
+    width: auto;
+    
+}
+
+#gif-blocos-scratch {
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+#segunda-div {
+    height: 50px; 
+    width: auto;
+    margin-top: -280px; 
+    margin-left: 17cm; 
+    text-align:left;
+}
+
+#bloco-pesquisa {
+    margin-top: 5px;
+    margin-bottom: -40px;
+}
+
+#conta-no-scratch {
+    padding: 30px;
+    width: auto;
+    margin-top: 190px;
+    text-align:left;
+}
+
+.center {
+    text-align: center;
+}
+
+.font {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.galeria {
+    width: 100%;
+    border-radius: 1px;
+}
+
+.galeria .imagem {
+    padding: 5px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border: 1px solid black;
+}
+
+#roda-pe {
+    padding: 35px;
+    background-color: #45568a;
+}
+
+
