@@ -1,5 +1,5 @@
 body {
-    background: Gold ;
+    background: #1d1832 ;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    color: white;
 }
 
 .ul-header {
@@ -18,7 +19,6 @@ body {
 
 ul li  {
     list-style: none;
-    background-color: rgb(27, 24, 24);
     padding: 20px;
     border-radius: 5px;
 }
@@ -30,12 +30,20 @@ ul li a {
     align-items: center;
 }
 
-#primeira-div {
+#first-div {
     padding: 1px;
-    background-color: LightYellow;
+    background-color: #ffdff4;
     height: 400px;
     width: auto;
-    
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+#h3-firts {
+    padding-top: 35px;
 }
 
 #gif-blocos-scratch {
@@ -44,7 +52,7 @@ ul li a {
 
 }
 
-#segunda-div {
+#second-div {
     height: 50px; 
     width: auto;
     margin-top: -280px; 
