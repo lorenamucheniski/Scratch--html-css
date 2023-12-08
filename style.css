@@ -41,6 +41,13 @@ ul li a:hover {
     color: #40dedc;
 }
 
+.format-subtitle {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+
 #first-sec {
     background-image: url(/img/children.jpg);
     background-repeat: no-repeat;
@@ -55,13 +62,15 @@ ul li a:hover {
     flex-direction: column;
     padding-top: 35px;
     padding-left: 15px;
-    color: white;
+    color: black;
     font-size: 20px;
     font-family: 'Amatic SC', sans-serif;
 }
-
 #h3-firts {
-    padding-top: 35px;
+    width: 300px;
+    color: black;
+    text-align: justify;
+
 }
 
 #gif-blocos-scratch {
@@ -70,17 +79,16 @@ ul li a:hover {
 
 }
 
-#second-div {
+#first-div {
     height: 50px; 
-    width: auto;
+    width: 615px;
     margin-top: -280px; 
-    margin-left: 17cm; 
-    text-align:left;
+    margin-left: 16cm; 
+    text-align:justify;
 }
 
-#bloco-pesquisa {
-    margin-top: 5px;
-    margin-bottom: -40px;
+#second-div {
+    padding-top: 230px;
 }
 
 #conta-no-scratch {
