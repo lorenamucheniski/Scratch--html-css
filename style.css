@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background: #1d1832 ;
+    background-image: linear-gradient(to right, #102444, #0c4381,#5c66c8);
     margin: 0;
     padding: 0;
 }
@@ -16,6 +16,10 @@ body {
     align-items: center;
     padding: 10px;
     color: white;
+}
+
+#header-h1 {
+    font-size: 50px;
 }
 
 .ul-header {
@@ -47,6 +51,15 @@ ul li a:hover {
 
 }
 
+.format-div {
+    padding: 30px;
+    width: auto;
+    margin-top: 40px;
+    text-align:left;
+    color: white; 
+    font-family: cursive;
+    font-size: 20px;
+}
 
 #first-sec {
     background-image: url(/img/children.jpg);
@@ -89,17 +102,9 @@ ul li a:hover {
     text-align:justify;
 }
 
+
 #second-div {
-    padding-top: 230px;
-}
-
-#conta-no-scratch {
-    padding: 30px;
-    width: auto;
-    margin-top: 190px;
-    text-align:left;
-    color: white;
-
+    padding-top: 250px;
 }
 
 .center {
@@ -107,9 +112,9 @@ ul li a:hover {
 }
 
 .font {
+    color: white;
     font-family: cursive;
     font-size: 20px;
-    color: white;
 }
 
 .galeria {
