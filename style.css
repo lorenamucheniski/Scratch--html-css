@@ -67,9 +67,11 @@ ul li a:hover {
     font-family: 'Amatic SC', sans-serif;
 }
 #h3-firts {
-    width: 300px;
+    width: 350px;
     color: black;
-    text-align: justify;
+    text-align: left;
+    margin-left: 960px;
+    margin-top: 235px;
 
 }
 
