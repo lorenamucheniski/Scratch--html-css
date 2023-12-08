@@ -14,17 +14,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     color: white;
-}
-
-#header-h1 {
-    font-size: 50px;
 }
 
 .ul-header {
     display: flex;
-    gap: 15px;
+    gap: 5px;
 }
 
 ul li  {
@@ -32,9 +27,10 @@ ul li  {
     padding: 20px;
     border-radius: 5px;
 }
+
 ul li a {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -42,13 +38,21 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #40dedc;
+    color: #c78ffa;
+}
+
+#main-title {
+    width:auto;
+    padding: 20px;
+    text-align:center;
+    color: white; 
+    font-family: cursive;
+    font-size: 25px;
 }
 
 .format-subtitle {
     text-align: center;
     padding-top: 20px;
-
 }
 
 .format-div {
@@ -79,6 +83,7 @@ ul li a:hover {
     font-size: 20px;
     font-family: 'Amatic SC', sans-serif;
 }
+
 #h3-firts {
     width: 350px;
     color: black;
@@ -129,19 +134,23 @@ ul li a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .paragraph::before {
     content: counter(cont);
     counter-increment: cont;
-    
-
 }
 
 #roda-pe {
-    padding: 35px;
-    background-color: #45568a;
+    display: flex;
+    background-color: #dce5f6;
+    font-size: 15px;
+    font-family: 'Hind';
+    justify-content:center;
+    text-align: center;
+    gap: 1px;
+    color: black;
 }
 
 
