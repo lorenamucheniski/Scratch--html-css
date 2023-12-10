@@ -14,7 +14,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    justify-content: right;
+    margin-top: -50px;
 }
 
 .ul-header {
@@ -26,11 +27,13 @@ ul li  {
     list-style: none;
     padding: 20px;
     border-radius: 5px;
+
 }
 
 ul li a {
-    color: white;
-    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -47,7 +50,7 @@ ul li a:hover {
     text-align:center;
     color: white; 
     font-family: cursive;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .format-subtitle {
@@ -114,6 +117,7 @@ ul li a:hover {
 
 .center {
     text-align: center;
+    color: black;
 }
 
 .font {
@@ -137,20 +141,20 @@ ul li a:hover {
     border: 1px solid white;
 }
 
-.paragraph::before {
-    content: counter(cont);
-    counter-increment: cont;
-}
-
 #roda-pe {
     display: flex;
     background-color: #dce5f6;
-    font-size: 15px;
     font-family: 'Hind';
-    justify-content:center;
+    justify-content:right;
     text-align: center;
     gap: 1px;
     color: black;
+    padding: 0;
 }
 
+.ul-footer li a {
+    color: black;
+    font-size: 15px;
+    justify-content: center;
+}
 
