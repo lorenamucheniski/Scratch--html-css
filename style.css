@@ -154,7 +154,7 @@ ul li a:hover {
     display: flex;
     background-color: #dce5f6;
     font-family: 'Hind';
-    justify-content:right;
+    justify-content:center;
     text-align: center;
     gap: 1px;
     color: black;
@@ -165,5 +165,6 @@ ul li a:hover {
     color: black;
     font-size: 15px;
     justify-content: center;
+    align-items: center;
 }
 
