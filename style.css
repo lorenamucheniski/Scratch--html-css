@@ -112,7 +112,16 @@ ul li a:hover {
 
 
 #second-div {
-    padding-top: 250px;
+    margin-top: 250px;
+}
+
+#conta-no-scratch {
+    margin-top: -10px;
+}
+
+.ul-conta-scratch li a {
+    color: white;
+    font-size: 20px;
 }
 
 .center {
