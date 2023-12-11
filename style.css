@@ -150,6 +150,12 @@ ul li a:hover {
     border: 1px solid white;
 }
 
+.ul-projects li a {
+    color: #00d1ff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
 #roda-pe {
     display: flex;
     background-color: #dce5f6;
