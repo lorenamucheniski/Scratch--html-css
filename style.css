@@ -120,6 +120,7 @@ ul li a:hover {
 }
 
 .ul-conta-scratch {
+    background-color: #004fa9;
     color: white;
     font-size: 20px;
     display: flex;
