@@ -119,9 +119,16 @@ ul li a:hover {
     margin-top: -10px;
 }
 
-.ul-conta-scratch li a {
+.ul-conta-scratch {
     color: white;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    box-shadow: 0px 2px 10px black;
+    margin: 30px 10px 30px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
 }
 
 .center {
@@ -160,7 +167,7 @@ ul li a:hover {
     display: flex;
     background-color: #dce5f6;
     font-family: 'Hind';
-    justify-content:center;
+    justify-content:right;
     text-align: center;
     gap: 1px;
     color: black;
