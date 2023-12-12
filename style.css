@@ -169,6 +169,7 @@ ul li a:hover {
     justify-content: center;
     gap: 20px;
     background-color: aliceblue;
+    padding-right: 50px;
 }
 
 .ul-footer li a {
