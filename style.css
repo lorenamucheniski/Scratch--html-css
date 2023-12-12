@@ -163,21 +163,16 @@ ul li a:hover {
     font-size: 20px;
 }
 
-#roda-pe {
+.ul-footer {
     display: flex;
-    background-color: #dce5f6;
-    font-family: 'Hind';
-    justify-content:right;
-    text-align: center;
-    gap: 1px;
-    color: black;
-    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: aliceblue;
 }
 
 .ul-footer li a {
     color: black;
     font-size: 15px;
-    justify-content: center;
-    align-items: center;
 }
 
